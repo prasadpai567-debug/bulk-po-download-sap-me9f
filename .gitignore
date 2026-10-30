@@ -1,0 +1,16 @@
+# Excel temporary and lock files
+~$*.xls*
+*.tmp
+*.bak
+
+# Macro outputs and private business data
+*.pdf
+*.csv
+!sample-data/*.csv
+data/private/
+exports/
+screenshots/raw/
+
+# Extracted Office/VBA internals
+vbaProject.bin
+work/
