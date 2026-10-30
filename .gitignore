@@ -3,6 +3,13 @@
 *.tmp
 *.bak
 
+# Office workbooks and macro-enabled files are excluded by default
+*.xls
+*.xlsx
+*.xlsm
+*.xlsb
+*.xlam
+
 # Macro outputs and private business data
 *.pdf
 *.csv
@@ -14,3 +21,9 @@ screenshots/raw/
 # Extracted Office/VBA internals
 vbaProject.bin
 work/
+
+# Common local development artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
